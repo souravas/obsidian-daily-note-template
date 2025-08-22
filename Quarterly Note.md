@@ -6,7 +6,7 @@ tags: [journal/quarterly]
 **Period:** [[<% tp.date.now("YYYY") %>]]
 
 ## 🎯 Quarterly Objectives
--
+- <% tp.file.cursor() %>
 
 ## 🚫 Anti-Goals (what I won't do)
 - 

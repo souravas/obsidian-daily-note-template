@@ -6,7 +6,7 @@ tags: [journal/daily]
 **Periods:** [[<% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>]] • [[<% tp.date.now("YYYY-MM") %>]] • [[<% tp.date.now("YYYY") %>-Q<% tp.date.now("Q") %>]] • [[<% tp.date.now("YYYY") %>]]
 
 ## 🎯 One Big Thing (Outcome)
-_I will … so that …_
+- <% tp.file.cursor() %>
 
 ## ✅ Tasks
 - [ ] 

@@ -4,7 +4,7 @@ tags: [journal/yearly]
 # 🗓️ <% tp.date.now("YYYY") %>
 
 ## 🎯 Yearly Themes & Goals
-- 
+- <% tp.file.cursor() %> 
 
 ## 🚫 Anti-Goals (what I won’t do)
 - 

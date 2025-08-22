@@ -6,7 +6,7 @@ tags: [journal/monthly]
 **Period:** [[<% tp.date.now("YYYY-[Q]Q") %>]] • [[<% tp.date.now("YYYY") %>]]
 
 ## 🎯 Monthly Goals
--
+- <% tp.file.cursor() %>
 
 ## 🚫 Anti-Goals (what I won't do)
 - 

@@ -6,7 +6,7 @@ tags: [journal/weekly]
 **Period:** [[<% tp.date.now("YYYY-MM") %>]] • [[<% tp.date.now("YYYY-[Q]Q") %>]] • [[<% tp.date.now("YYYY") %>]]
 
 ## 🎯 Weekly Focus
-- 
+- <% tp.file.cursor() %>
 - 
 - 
 
