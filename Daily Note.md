@@ -1,5 +1,6 @@
 ---
 tags: [journal/daily]
+created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
 ---
 # 📆 <% tp.date.now("YYYY-MM-DD") %> · <% tp.date.now("dddd") %>
 

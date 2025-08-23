@@ -1,5 +1,6 @@
 ---
 tags: [journal/weekly]
+created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
 ---
 # 📋 Week <% tp.date.now("WW") %> · <% tp.date.now("YYYY") %>
 

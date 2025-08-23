@@ -1,5 +1,6 @@
 ---
 tags: [journal/quarterly]
+created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
 ---
 # 🟰 Q<% tp.date.now("Q") %> <% tp.date.now("YYYY") %>
 

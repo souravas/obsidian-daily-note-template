@@ -1,5 +1,6 @@
 ---
 tags: [journal/monthly]
+created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
 ---
 # 📅 <% tp.date.now("MMMM YYYY") %>
 
