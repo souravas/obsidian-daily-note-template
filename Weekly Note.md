@@ -1,36 +1,47 @@
 ---
-tags: [journal/weekly]
-created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
+tags:
+  - journal/weekly
+created: {{current_date}}
 ---
-# 📋 Week <% tp.date.now("WW") %> · <% tp.date.now("YYYY") %>
-
-**Period:** [[<% tp.date.now("YYYY-MM") %>]] • [[<% tp.date.now("YYYY-[Q]Q") %>]] • [[<% tp.date.now("YYYY") %>]]
+# 📋 {{title}}
 
 ## 🎯 Weekly Focus
 - <% tp.file.cursor() %>
-- 
-- 
 
 ## 🚫 Anti-Goals (what I won't do)
 - 
 
 ---
 ## 📊 Week Review
-**Achievements:**  
--  
 
-**What patterns emerged this week?**  
--  
+**Achievements:**
+- 
 
-**Lessons Learned:**  
--  
+**What patterns emerged this week?**
+- 
 
-**Blockers / Decisions:**  
--  
+**Lessons Learned:**
+- 
 
-**Next Week's Focus:**  
--  
+**Blockers / Decisions:**
+- 
+
+**Next Week's Focus:**
+- 
 
 ---
 
-**Navigation:** [[<% tp.date.now("YYYY-[W]WW", -7) %>|◀︎ Previous Week]] • [[<% tp.date.now("YYYY-[W]WW", 7) %>|Next Week ▶︎]]
+```journals-home
+show:
+ - day
+ - week
+ - month
+ - quarter
+ - year
+ - custom
+scale: 2
+separator: " | "
+```
+
+```journal-nav
+```

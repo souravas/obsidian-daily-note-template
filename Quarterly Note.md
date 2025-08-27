@@ -1,10 +1,9 @@
 ---
-tags: [journal/quarterly]
-created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
+tags:
+  - journal/quarterly
+created: {{current_date}}
 ---
-# 🟰 Q<% tp.date.now("Q") %> <% tp.date.now("YYYY") %>
-
-**Period:** [[<% tp.date.now("YYYY") %>]]
+# 🟰 {{title}}
 
 ## 🎯 Quarterly Objectives
 - <% tp.file.cursor() %>
@@ -15,23 +14,39 @@ created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
 ---
 ## 📊 Quarterly Review
 
-**Progress Made:**  
--  
+**Progress Made:**
+- 
 
-**What strategies worked/didn't work?**  
--  
+**What strategies worked/didn't work?**
+- 
 
-**Challenges Faced:**  
--  
+**Challenges Faced:**
+- 
 
-**What to Stop / Start / Continue:**  
-- Stop: 
-- Start: 
-- Continue: 
+**What to Stop / Start / Continue:**
+- *Stop*:
+	- 
+- *Start*:
+	- 
+- *Continue*:
+	- 
 
-**Next Quarter's Focus:**  
--  
+**Next Quarter's Focus:**
+- 
 
 ---
 
-**Navigation:** [[<% tp.date.now("YYYY-[Q]Q", "P-3M") %>|◀︎ Previous Quarter]] • [[<% tp.date.now("YYYY-[Q]Q", "P3M") %>|Next Quarter ▶︎]]
+```journals-home
+show:
+ - day
+ - week
+ - month
+ - quarter
+ - year
+ - custom
+scale: 2
+separator: " | "
+```
+
+```journal-nav
+```

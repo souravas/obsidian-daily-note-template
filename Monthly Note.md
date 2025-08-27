@@ -1,10 +1,9 @@
 ---
-tags: [journal/monthly]
-created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
+tags:
+  - journal/monthly
+created: {{current_date}}
 ---
-# 📅 <% tp.date.now("MMMM YYYY") %>
-
-**Period:** [[<% tp.date.now("YYYY-[Q]Q") %>]] • [[<% tp.date.now("YYYY") %>]]
+# 📅 {{title}}
 
 ## 🎯 Monthly Goals
 - <% tp.file.cursor() %>
@@ -14,21 +13,35 @@ created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
 
 ---
 ## 📈 Monthly Review
-**Key Achievements:**  
--  
 
-**What assumptions were proven wrong?**  
--  
+**Key Achievements:**
+- 
 
-**Areas for Improvement:**  
--  
+**What assumptions were proven wrong?**
+- 
 
-**Decisions Made / Changes:**  
--  
+**Areas for Improvement:**
+- 
 
-**Next Month's Focus:**  
--  
+**Decisions Made / Changes:**
+- 
+
+**Next Month's Focus:**
+- 
 
 ---
 
-**Navigation:** [[<% tp.date.now("YYYY-MM", "P-1M") %>|◀︎ Previous Month]] • [[<% tp.date.now("YYYY-MM", "P1M") %>|Next Month ▶︎]]
+```journals-home
+show:
+ - day
+ - week
+ - month
+ - quarter
+ - year
+ - custom
+scale: 2
+separator: " | "
+```
+
+```journal-nav
+```

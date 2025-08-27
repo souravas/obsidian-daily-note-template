@@ -1,30 +1,45 @@
 ---
-tags: [journal/yearly]
-created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
+tags:
+  - journal/yearly
+created: {{current_date}}
 ---
-# 🗓️ <% tp.date.now("YYYY") %>
+# 🗓️ {{title}}
 
 ## 🎯 Yearly Themes & Goals
-- <% tp.file.cursor() %> 
+- <% tp.file.cursor() %>
 
 ## 🚫 Anti-Goals (what I won’t do)
 - 
 
 ## 📊 Annual Review
-**Major Accomplishments:**  
--  
+**Major Accomplishments:**
+- 
 
-**Key Learnings:**  
--  
+**Key Learnings:**
+- 
 
-**What Didn’t Work:**  
--  
+**What Didn’t Work:**
+- 
 
-**Important Decisions / Pivots:**  
--  
+**Important Decisions / Pivots:**
+- 
 
 **Next Year's Focus:**
-- 
+ - 
+
 ---
 
-**Navigation:** [[<% tp.date.now("YYYY", "P-1Y") %>|◀︎ Previous Year]] • [[<% tp.date.now("YYYY", "P1Y") %>|Next Year ▶︎]]
+```journals-home
+show:
+ - day
+ - week
+ - month
+ - quarter
+ - year
+ - custom
+scale: 2
+separator: " | "
+```
+
+```journal-nav
+```
